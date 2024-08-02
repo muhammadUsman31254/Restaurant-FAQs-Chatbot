@@ -7,7 +7,6 @@ from langchain_groq import ChatGroq
 from langchain.memory import ConversationBufferMemory
 from langchain.chains import ConversationalRetrievalChain
 import requests
-import os
 
 app = Flask(__name__)
 
